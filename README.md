@@ -1,42 +1,162 @@
-# 🖥️ Desafio Técnico - Sistema de Login e Cadastro
+🖥️ Desafio Técnico - Sistema de Login e Cadastro
 
-Este é um projeto de back-end e front-end desenvolvido em Node.js, Express, HTML5 e CSS3 que simula um sistema de cadastro e autenticação (login) de usuários. Os dados são armazenados temporariamente na memória RAM durante a execução do servidor.
+Um sistema de autenticação web desenvolvido utilizando Node.js, Express, HTML5, CSS3 e JavaScript. O projeto simula um fluxo completo de cadastro e login de usuários, integrando um back-end responsável pelo processamento das requisições e um front-end com uma interface moderna e intuitiva.
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Node.js** (Ambiente de execução)
-* **Express** (Framework para gerenciamento de rotas e requisições HTTP)
-* **CORS** (Middleware para permitir futuras conexões com o front-end)
-* **HTML5** — Estruturação semântica das páginas.
-* **CSS3** — Estilização da interface e organização do layout.
-* **Flexbox** — Centralização e alinhamento responsivo dos elementos.
-* **Boxicons** — Biblioteca de ícones utilizada nos campos do formulário.
-* **Google Fonts** (Poppins) — Tipografia moderna para a interface.
+Durante a execução do servidor, os dados dos usuários são armazenados temporariamente na memória RAM, simulando o funcionamento de um banco de dados.
 
 ---
 
-## ⚙️ Como Instalar e Executar o Projeto
+✨ Funcionalidades
 
-Siga os passos abaixo no seu terminal para rodar o projeto localmente:
+🔑 Login ("index.html")
 
-## 📁 Na pasta que colocar o projeto digite os codigos no caminho da pasta no command prompt ou cmd:
+- Interface para autenticação de usuários;
+- Campos para e-mail e senha;
+- Validação dos dados enviados;
+- Redirecionamento para a área do usuário após login bem-sucedido;
+- Exibição de mensagens de erro em caso de credenciais inválidas.
 
-**NOTA:** O comando `npm init -y` não é necessário, pois os arquivos `package.json` e `package-lock.json` já estão inclusos na pasta do projeto.
+---
 
-**npm init -y**: cria o arquivo package.json que vai armazenar e manipular as (bibliotecas) que vamos adicionar.
+📝 Cadastro ("cadastro.html")
 
-**NOTA:** Abra o command prompt ou cmd no VS code e digite 'cd Backend' dps o comando `npm install express` para instalar o node_modulos na pasta do projeto, pois o mesmo não foi carregado nos arquivos do github como o packege.josn e o packege-lock.json do `npm init -y`.
+- Cadastro de novos usuários;
+- Validação de campos obrigatórios;
+- Verificação de e-mails duplicados;
+- Armazenamento temporário dos usuários durante a execução do servidor.
 
-**npm install express**: para simplifica e acelera a criacao/escrita de códigos complexos do zero, o Express fornece ferramentas para lidar com requisições HTTP (como GET e POST), gerenciamento de rotas e integração com bancos de dados. Criando o arquivo node_modules.
+---
 
-**NOTA** No VS Code baixe o 'Live Server' para poder executar o projeto direto do VS code.
+🔒 Recuperação de Senha ("senha.html")
 
-## 🚀 Como Executar o Projeto:
+- Campo para informar o e-mail cadastrado;
+- Simulação do processo de recuperação de senha;
+- Retorno para a tela inicial.
 
-**1** Abra a pasta do projeto no VS code e no command prompt ou cmd digite 'cd Backend' depois digite 'node server.js', para aparecer a mensagem "Servidor rodando com sucesso na porta 3000".
+---
 
-**2** Abra a pasta 'sistema de login' e va em index.html e click com o butão direito do mouse depois com o esquedo na opção 'Open with Live Server', assim abrindo uma pagina no navegador principal.
+👥 Área do Usuário ("usuarios.html")
 
-**3** E por fim se registre no site e faça o login no site.
+- Tela acessível após autenticação;
+- Exibição dos usuários cadastrados;
+- Botão para sair da aplicação.
+
+---
+
+🛠️ Tecnologias Utilizadas
+
+Back-end
+
+- Node.js — Ambiente de execução JavaScript.
+- Express — Framework para criação do servidor e gerenciamento das rotas.
+- CORS — Middleware responsável por permitir a comunicação entre Front-end e Back-end.
+
+Front-end
+
+- HTML5 — Estruturação semântica das páginas.
+- CSS3 — Estilização da interface.
+- Flexbox — Organização e centralização responsiva dos elementos.
+- JavaScript — Comunicação entre interface e servidor.
+- Boxicons — Biblioteca de ícones.
+- Google Fonts (Poppins) — Tipografia da interface.
+
+---
+
+📂 Estrutura do Projeto
+
+📁 Projeto
+│
+├── 📁 Backend
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── node_modules/
+│
+├── 📁 Sistema de Login
+│   ├── index.html
+│   ├── cadastro.html
+│   ├── senha.html
+│   ├── usuarios.html
+│   ├── style.css
+│   ├── senha.css
+│   └── app.js
+│
+└── README.md
+
+---
+
+⚙️ Instalação
+
+Clone este repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+Entre na pasta do projeto:
+
+cd nome-do-projeto
+
+Acesse a pasta do Back-end:
+
+cd Backend
+
+Instale as dependências:
+
+npm install
+
+«Observação: Os arquivos "package.json" e "package-lock.json" já estão incluídos no projeto. Portanto, não é necessário executar "npm init -y".»
+
+---
+
+🚀 Executando o Projeto
+
+1️⃣ Inicie o servidor
+
+Ainda na pasta Backend, execute:
+
+node server.js
+
+Se tudo estiver correto, aparecerá a mensagem:
+
+Servidor rodando com sucesso na porta 3000
+
+---
+
+2️⃣ Execute o Front-end
+
+Abra a pasta Sistema de Login no Visual Studio Code.
+
+Caso ainda não tenha instalado, baixe a extensão Live Server.
+
+Depois:
+
+- clique com o botão direito no arquivo "index.html";
+- selecione Open with Live Server.
+
+O navegador abrirá automaticamente a aplicação.
+
+---
+
+3️⃣ Teste o sistema
+
+Agora basta:
+
+- criar um novo usuário;
+- realizar o login;
+- acessar a área do usuário;
+- testar a recuperação de senha.
+
+---
+
+📚 Conceitos Praticados
+
+Durante o desenvolvimento deste projeto foram aplicados conceitos como:
+
+- Estruturação de páginas com HTML5;
+- Estilização utilizando CSS3;
+- Layout responsivo com Flexbox;
+- Comunicação entre Front-end e Back-end;
+- Criação de APIs REST utilizando Express;
+- Rotas HTTP (GET e POST);
+- Validação de formulários;
+- Manipulação de dados em memória;
+- Organização de projetos Full Stack.
