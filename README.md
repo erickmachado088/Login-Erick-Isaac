@@ -40,5 +40,3 @@ Siga os passos abaixo no seu terminal para rodar o projeto localmente:
 **2** Abra a pasta 'sistema de login' e va em index.html e click com o butão direito do mouse depois com o esquedo na opção 'Open with Live Server', assim abrindo uma pagina no navegador principal.
 
 **3** E por fim se registre no site e faça o login no site.
-
-
