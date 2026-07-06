@@ -89,7 +89,7 @@ Front-end
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/erickmachado088/Login-Erick-Isaac.git
 
 Entre na pasta do projeto:
 
@@ -103,9 +103,7 @@ Instale as dependências:
 
 npm install express
 
-**Observação:** npm install express: para simplifica e acelera a criacao/escrita de códigos complexos do zero, o Express fornece ferramentas para lidar com requisições HTTP (como GET e POST), gerenciamento de rotas e integração com bancos de dados. Criando o arquivo node_modules
-
-**Observação: Os arquivos "package.json" e "package-lock.json" já estão incluídos no projeto. Portanto, não é necessário executar "npm init -y".»
+**Observação:** O "npm install express" Cria o arquivo node_modules necessário para executar o projeto.
 
 ---
 
