@@ -1,4 +1,4 @@
-🖥️ Desafio Técnico - Sistema de Login e Cadastro
+**🖥️ Desafio Técnico - Sistema de Login e Cadastro**
 
 Um sistema de autenticação web desenvolvido utilizando Node.js, Express, HTML5, CSS3 e JavaScript. O projeto simula um fluxo completo de cadastro e login de usuários, integrando um back-end responsável pelo processamento das requisições e um front-end com uma interface moderna e intuitiva.
 
@@ -6,9 +6,9 @@ Durante a execução do servidor, os dados dos usuários são armazenados tempor
 
 ---
 
-✨ Funcionalidades
+**✨ Funcionalidades**
 
-🔑 Login ("index.html")
+**🔑 Login ("index.html")**
 
 - Interface para autenticação de usuários;
 - Campos para e-mail e senha;
@@ -18,7 +18,7 @@ Durante a execução do servidor, os dados dos usuários são armazenados tempor
 
 ---
 
-📝 Cadastro ("cadastro.html")
+**📝 Cadastro ("cadastro.html")**
 
 - Cadastro de novos usuários;
 - Validação de campos obrigatórios;
@@ -27,7 +27,7 @@ Durante a execução do servidor, os dados dos usuários são armazenados tempor
 
 ---
 
-🔒 Recuperação de Senha ("senha.html")
+**🔒 Recuperação de Senha ("senha.html")**
 
 - Campo para informar o e-mail cadastrado;
 - Simulação do processo de recuperação de senha;
@@ -35,7 +35,7 @@ Durante a execução do servidor, os dados dos usuários são armazenados tempor
 
 ---
 
-👥 Área do Usuário ("usuarios.html")
+**👥 Área do Usuário ("usuarios.html")**
 
 - Tela acessível após autenticação;
 - Exibição dos usuários cadastrados;
@@ -43,7 +43,7 @@ Durante a execução do servidor, os dados dos usuários são armazenados tempor
 
 ---
 
-🛠️ Tecnologias Utilizadas
+**🛠️ Tecnologias Utilizadas**
 
 Back-end
 
@@ -62,7 +62,7 @@ Front-end
 
 ---
 
-📂 Estrutura do Projeto
+**📂 Estrutura do Projeto**
 
 📁 Projeto
 │
@@ -85,7 +85,7 @@ Front-end
 
 ---
 
-⚙️ Instalação
+**⚙️ Instalação**
 
 Clone este repositório:
 
@@ -101,15 +101,17 @@ cd Backend
 
 Instale as dependências:
 
-npm install
+npm install express
 
-«Observação: Os arquivos "package.json" e "package-lock.json" já estão incluídos no projeto. Portanto, não é necessário executar "npm init -y".»
+**Observação:** npm install express: para simplifica e acelera a criacao/escrita de códigos complexos do zero, o Express fornece ferramentas para lidar com requisições HTTP (como GET e POST), gerenciamento de rotas e integração com bancos de dados. Criando o arquivo node_modules
+
+**Observação: Os arquivos "package.json" e "package-lock.json" já estão incluídos no projeto. Portanto, não é necessário executar "npm init -y".»
 
 ---
 
-🚀 Executando o Projeto
+**🚀 Executando o Projeto**
 
-1️⃣ Inicie o servidor
+* 1️⃣ Inicie o servidor
 
 Ainda na pasta Backend, execute:
 
@@ -121,7 +123,7 @@ Servidor rodando com sucesso na porta 3000
 
 ---
 
-2️⃣ Execute o Front-end
+* 2️⃣ Execute o Front-end
 
 Abra a pasta Sistema de Login no Visual Studio Code.
 
@@ -136,7 +138,8 @@ O navegador abrirá automaticamente a aplicação.
 
 ---
 
-3️⃣ Teste o sistema
+* 3️⃣ Teste o sistema
+
 
 Agora basta:
 
@@ -147,7 +150,7 @@ Agora basta:
 
 ---
 
-📚 Conceitos Praticados
+**📚 Conceitos Praticados**
 
 Durante o desenvolvimento deste projeto foram aplicados conceitos como:
 
