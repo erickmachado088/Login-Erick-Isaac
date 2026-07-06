@@ -91,15 +91,15 @@ Clone este repositório:
 
 git clone https://github.com/erickmachado088/Login-Erick-Isaac.git
 
-Entre na pasta do projeto:
+Entre na pasta do projeto pelo VS Code:
 
-cd nome-do-projeto
+cd Login-Erick-Isaac
 
-Acesse a pasta do Back-end:
+Acesse a pasta do Back-end pelo cmd ou command prompt:
 
 cd Backend
 
-Instale as dependências:
+Instale as dependências no cmd ou command prompt do terminal do VS Code:
  
 npm install express
 
@@ -111,7 +111,7 @@ npm install express
 
 * 1️⃣ Inicie o servidor
 
-Ainda na pasta Backend, execute:
+Ainda na pasta Backend, execute no cmd ou command prompt:
 
 node server.js
 
