@@ -1,6 +1,6 @@
-criadores do projeto:
-Isaac de Assis Nazaré = Front-end
-Erick Nogueira Machado = Back-end
+criadores do projeto: 
+Isaac de Assis Nazaré = Front-end 
+Erick Nogueira Machado = Back-end 
 
 **🖥️ Desafio Técnico - Sistema de Login e Cadastro**
 
