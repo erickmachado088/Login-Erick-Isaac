@@ -1,3 +1,7 @@
+criadores do projeto:
+Isaac de Assis Nazaré = Front-end
+Erick Nogueira Machado = Back-end
+
 **🖥️ Desafio Técnico - Sistema de Login e Cadastro**
 
 Um sistema de autenticação web desenvolvido utilizando Node.js, Express, HTML5, CSS3 e JavaScript. O projeto simula um fluxo completo de cadastro e login de usuários, integrando um back-end responsável pelo processamento das requisições e um front-end com uma interface moderna e intuitiva.
