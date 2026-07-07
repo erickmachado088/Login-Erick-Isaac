@@ -1,4 +1,4 @@
-criadores do projeto:                                                                                                             
+Criadores do projeto:                                                                                                             
 Isaac de Assis Nazaré = Front-end                                                                                                                                             
 Erick Nogueira Machado = Back-end 
 
