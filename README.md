@@ -113,7 +113,7 @@ npm install express
 
 **🚀 Executando o Projeto**
 
-* 1️⃣ Inicie o servidor
+1️⃣ Inicie o servidor
 
 Ainda na pasta Backend, execute no cmd ou command prompt:
 
@@ -125,7 +125,7 @@ Servidor rodando com sucesso na porta 3000
 
 ---
 
-* 2️⃣ Execute o Front-end
+2️⃣ Execute o Front-end
 
 Abra a pasta Sistema de Login no Visual Studio Code.
 
@@ -140,7 +140,7 @@ O navegador abrirá automaticamente a aplicação.
 
 ---
 
-* 3️⃣ Teste o sistema
+3️⃣ Teste o sistema
 
 
 Agora basta:
